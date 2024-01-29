@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script functions</h1>
+    <p>call a function which performs a calculation and returns the result:</p>
+    <p id="demo"></p>
+    <p id = "demo"></p>
+<script>
+function test(){
+console.log("hello dears")
+
+}
+test();
+
+function add(a,b){
+console.log("The value of a+b=",a+b)
+
+}
+
+add(4,5);
+add(5,5);
+
+</script>
+
+<script>
+ let x=myfunction(4,4);
+document.getElementById("demo").innerHTML = x;
+
+
+function myfunction(a,b){
+return a*b;
+
+}
+const squares=square(6);
+document.getElementById("demo").innerHTML = squares;
+function square(num){
+return num*num;
+
+}
+const squared=function(num){
+    return num*num;
+
+}
+const y= squared(5);
+console.log("the square of num",y);
+
+
+</script>
+
+
+
+</body>
+</html>

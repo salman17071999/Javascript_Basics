@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>what java script can do?</h1>
+    <p id="demo">sum of two nums</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="hello javascript!"'>click me</button>
+    <p id ="cars"></p>
+    <p id="bike"></p>
+    <p id="function"></p>
+<script>
+let x=5;
+let y=6;
+let z=x+y;
+document.getElementById("demo").innerHTML= "the value of xand y:"+z;
+
+const cars=["saab","volvo","bmw"];
+cars[0]="omini";
+cars.push("suzuki");
+document.getElementById("cars").innerHTML=cars;
+
+
+
+const bike={type:"fiat",model:"500",color:"white"};
+bike.model="2015";
+bike.owner="johson";
+// console.log(bike.color)
+//  console.log(bike.owner)
+ document.getElementById("bike").innerHTML=bike.model+bike.owner;
+
+
+function myfunction(p1,p2){
+return p1*p2
+}
+let result=myfunction(4,3);
+document.getElementById("function").innerHTML=result;
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

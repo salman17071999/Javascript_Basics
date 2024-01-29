@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Java variables</h3>
+    <p id="demo">sum of two numbers</p> 
+
+
+     <script>
+        var x = 5;
+        var y=  6;
+        var z= x+y;
+        document.getElementById("demo").innerHTML="the sum of x and y is:"+z;
+    
+
+
+    </script> 
+
+<script>
+
+<p id="car"></p>
+// create an array:
+const cars=["saab","volvo","bmw"];
+
+// change an element:
+cars[0]="toyota";
+
+// add an element:
+cars.push("audi");
+// display the  array:
+document.getElementById("car").innerHTML= "array values="+cars;
+
+
+<p id="vehicle"></p>
+const cars={"name":"vento","model":2015,"color":"grey"};
+car.model=2013;
+// console.log("car model is",car)
+document.getElementById("vehicle").innerHTML=car.color;
+
+<p id="demo"></p>
+
+function myfunction(p1,p2){
+return p1*p2;
+}
+let result=myfunction(4,3);
+document.getElementById("demo").innerHTML= result;
+
+
+</script>
+
+
+
+
+</body>
+</html>
